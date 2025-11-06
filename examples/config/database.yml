@@ -1,0 +1,6 @@
+# QUESTO FILE DEVE ESSERE CRIPTATO DA GIT-CRYPT
+production:
+  adapter: postgresql
+  host: db.prod.example.com
+  username: prod_user
+  password: "AnotherStrongPassword"

@@ -1,0 +1,2 @@
+# QUESTO FILE DEVE ESSERE CRIPTATO DA GIT-CRYPT
+postgres://prod_user:SuperSecurePassword!@#@db.prod.example.com:5432/production_db

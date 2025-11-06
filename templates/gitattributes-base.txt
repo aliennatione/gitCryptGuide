@@ -1,0 +1,12 @@
+# Template base per configurazioni semplici
+# Copia questo contenuto nel tuo file .gitattributes
+
+# Variabili d'ambiente
+*.env filter=git-crypt diff=git-crypt
+
+# Credenziali in JSON
+*secrets*.json filter=git-crypt diff=git-crypt
+
+# Chiavi e certificati
+*.key filter=git-crypt diff=git-crypt
+*.pem filter=git-crypt diff=git-crypt

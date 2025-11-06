@@ -1,0 +1,20 @@
+# .gitattributes
+# Questo file DEVE essere committato in chiaro e definisce i pattern dei file sensibili.
+
+# 1. Cripta tutti i file JSON nella directory examples/secrets/
+examples/secrets/*.json filter=git-crypt diff=git-crypt
+
+# 2. Cripta tutte le variabili d'ambiente (.env) nella directory examples/secrets/
+examples/secrets/*.env filter=git-crypt diff=git-crypt
+
+# 3. Cripta tutti i file .yml/yaml nella directory examples/config/
+examples/config/*.yml filter=git-crypt diff=git-crypt
+
+# 4. Cripta file specifici di connessione DB
+examples/config/db_connection.txt filter=git-crypt diff=git-crypt
+
+# 5. Cripta qualsiasi file con l'estensione .key, ovunque
+*.key filter=git-crypt diff=git-crypt
+
+# 6. Esempio di file che deve restare in chiaro (usa !filter per override)
+examples/public/* !filter !diff

@@ -1,0 +1,10 @@
+# Template per progetti Node.js / JavaScript
+
+# Variabili d'ambiente
+.env* filter=git-crypt diff=git-crypt
+
+# Chiavi di servizio (Firebase, AWS, ecc.)
+config/*.json filter=git-crypt diff=git-crypt
+
+# Assicurati che il file package-lock.json NON sia criptato!
+package-lock.json !filter !diff
