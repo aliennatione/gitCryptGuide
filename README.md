@@ -13,12 +13,12 @@ Git-crypt è un filtro Git che permette la **crittografia trasparente**. I file 
 Inizia da qui per configurare Git-crypt in qualsiasi progetto.
 
 1.  [**Installazione**](./docs/1-Installazione.md): Setup iniziale degli strumenti necessari (Git, GPG, Git-crypt).
-2.  [**Quick Start**](./docs/2-Quick-Start.md): La guida essenziale per rendere operativo un repository.
-2b. [**Modalità di Sblocco**](./docs/2b-Modalita-di-Sblocco.md): Tutte le opzioni per decifrare i file (GPG, Chiave Simmetrica, Passphrase).
-3.  [**Gestione Chiavi GPG**](./docs/3-Gestione-Chiavi-GPG.md): Creazione, backup, revoca e gestione della fiducia.
-4.  [**Integrazione CI/CD**](./docs/4-Integrazione-CI-CD.md): Sblocco sicuro in pipeline automatiche (GitLab, GitHub Actions).
-4b. [**Integrazione Docker**](./docs/4b-Integrazione-Docker.md): Strategie per decifrare segreti durante il build o l'esecuzione di container.
-5.  [**Best Practice**](./docs/5-Best-Practice.md): Consigli di sicurezza e manutenzione.
+1.  [**Quick Start**](./docs/2-Quick-Start.md): La guida essenziale per rendere operativo un repository.
+1.  [**Modalità di Sblocco**](./docs/2b-Modalita-di-Sblocco.md): Tutte le opzioni per decifrare i file (GPG, Chiave Simmetrica, Passphrase).
+1.  [**Gestione Chiavi GPG**](./docs/3-Gestione-Chiavi-GPG.md): Creazione, backup, revoca e gestione della fiducia.
+1.  [**Integrazione CI/CD**](./docs/4-Integrazione-CI-CD.md): Sblocco sicuro in pipeline automatiche (GitLab, GitHub Actions).
+1. [**Integrazione Docker**](./docs/4b-Integrazione-Docker.md): Strategie per decifrare segreti durante il build o l'esecuzione di container.
+1.  [**Best Practice**](./docs/5-Best-Practice.md): Consigli di sicurezza e manutenzione.
 
 ---
 
